@@ -1,0 +1,217 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(217, 28%, 15%);
+  background-image: url(../images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 5000px;
+  background-position: 40% -25%;
+  color: white;
+  overflow-x: hidden;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar ul {
+  margin-left: 700px;
+}
+
+.navbar ul a {
+  margin-left: 50px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.logo {
+  margin-left: 150px;
+}
+
+.first-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.first-container h1{
+  margin-top: 100px;
+  margin-left: 350px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  width: 800px;
+}
+
+.first-container p{
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 350px;
+  width: 800px;
+}
+
+.get-started-btn {
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+	border-radius:28px;
+  width: 200px;
+  margin-top: 50px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 31px;
+	text-decoration:none;
+}
+.get-started-btn:hover {
+		background-image: linear-gradient(to right, hsl(176, 68%, 70%), hsl(198, 60%, 60%));
+}
+.get-started-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.second-container {
+  background-color: hsl(218, 28%, 13%);
+  margin-top: 100px;
+}
+
+.left-side {
+  margin-left: 200px;
+  text-align: center;
+}
+
+.left-side h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.left-side p{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: 400;
+}
+
+
+.right-side {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.right-side h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.right-side p{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: 400;
+}
+
+.productive-text {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.productive-text h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  width: 480px;
+}
+
+.productive-text p{
+  font-weight: 400;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.productive-text a {
+  color: hsl(176, 68%, 64%);
+}
+
+.third-container {
+  background-color: hsl(218, 28%, 13%);
+  background-image: url(../images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 3% 20%;
+}
+.card {
+  background-color: hsl(219, 30%, 18%);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 100px;
+}
+
+.name {
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+.job-title {
+  margin-left: 10px;
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.fourth-container {
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer-logo {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.location {
+  position: absolute;
+  margin-left: -240px;
+  margin-top: 175px;
+}
+
+.location-text {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.contact-col {
+  margin-top: 160px;
+  margin-left: 100px;
+}
+
+.fourth-contianer ul{
+  margin-top: 160px;
+}
+
+.links-1 {
+  margin-left: 70px;
+}
+
+#productive {
+  margin-left: 150px;
+}
